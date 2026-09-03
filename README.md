@@ -1,5 +1,16 @@
 # Solari Cookbook
 
+> **This fork** adds two examples built for the Solari challenge and keeps them
+> next to the upstream ones: [browser-human-handoff-ts](examples/browser-human-handoff-ts)
+> (a stuck agent hands the live session to a phone, or asks for an approval —
+> [handraise](https://github.com/Sy-D/handraise), with chat adapters
+> [handraise-telegram](https://github.com/Sy-D/handraise-telegram) and
+> [handraise-slack](https://github.com/Sy-D/handraise-slack)) and
+> [browser-session-survival-ts](examples/browser-session-survival-ts) (sessions end
+> after ~10 min; [outlive](https://github.com/Sy-D/outlive) checkpoints, relaunches
+> and re-enters the task). Upstream PRs: solari-sdk/solari-cookbook#24 and #37.
+
+
 Short, runnable examples for [Solari](https://getsolari.com) — cloud browsers,
 sandboxes, and desktops behind one API key.
 
@@ -19,6 +30,7 @@ past. Copy one into your project and change the parts you care about.
 | [browser-profiles-ts](examples/browser-profiles-ts) | TypeScript | Log in once, reuse the session forever |
 | [browser-session-recording-py](examples/browser-session-recording-py) | Python | Record a session, download the replay |
 | [browser-human-handoff-ts](examples/browser-human-handoff-ts) | TypeScript | Agent stuck? Put the live session on a human's phone |
+| [browser-session-survival-ts](examples/browser-session-survival-ts) | TypeScript | Sessions end after ~10 min; checkpoint, relaunch, re-enter the task |
 
 ### Sandbox
 
